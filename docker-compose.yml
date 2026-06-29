@@ -3,6 +3,6 @@ version: "3.8"
 services:
   nginx:
     build: .
-    ports:
-      - "1235:80"
+    # ports:
+    #   - "1235:80"
     restart: unless-stopped
